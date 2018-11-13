@@ -1,0 +1,4 @@
+# LipSink configuration file - do not edit manually
+# Written in JSON format
+
+{"frameRate":24,"faceClassifierPath":"resources/faceDetection/haarcascade_frontalface_alt2.xml","landmarkModelPath":"resources/faceDetection/lbfmodel.yaml","landmarkColor":"YELLOW","recordAudioPath":"audio/recorded.wav"}
