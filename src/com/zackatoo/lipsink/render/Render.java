@@ -123,9 +123,9 @@ public class Render extends Task<Boolean>
         MarvinImage image = new MarvinImage(renderWidth, renderHeight);
         image.clear(BACKGROUND_COLOR);
 
-        //createLiteralTranslationFrame(image, frame);
+        createLiteralTranslationFrame(image, frame);
         //createSimpleFrame(image, frame);
-        createElipseFrame(image, frame);
+        //createElipseFrame(image, frame);
 
         String path = renderDirectoryPath + "renderedImage-" + index + ".jpg";
         MarvinImageIO.saveImage(image, path);
