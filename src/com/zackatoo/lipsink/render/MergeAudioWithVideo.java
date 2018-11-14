@@ -1,4 +1,5 @@
-/*
+/* Does not work with 64 bit machines so instead the audio and video are just saved seperately
+ * 
  * Adapted from https://stackoverflow.com/questions/14013874/combine-audio-with-videowithout-ffmpeg-java
  */
 
